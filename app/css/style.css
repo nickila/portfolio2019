@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(22, 26, 34);
+    font-family: 'Crete Round', serif;
+}
+
+#name {
+    color: white;
+    font-size: 15rem;
+    
+}
