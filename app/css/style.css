@@ -1,10 +1,50 @@
 body {
-    background-color: rgb(22, 26, 34);
-    font-family: 'Crete Round', serif;
+    background-color: rgb(92, 203, 255);
+    
+
 }
 
 #name {
+    font-family: 'Nunito', serif;
     color: white;
-    font-size: 15rem;
+    font-size: 9rem;
     
+    
+}
+
+hr {
+    border: 3px white solid;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.links {
+    color: white;
+    font-size: 6rem;
+    margin: 30px;
+    font-family: "Lato", sans-serif;
+    margin-left: 0;
+   
+}
+
+#about:hover {
+    cursor: pointer;
+    text-shadow: 0 0 15px white;
+
+    
+}
+#portfolio:hover {
+    cursor: pointer;
+    text-shadow: 0 0 15px white;
+    
+}
+#contact:hover {
+    cursor: pointer;
+    text-shadow: 0 0 15px white;
+    
+}
+
+.hide {
+    display: none;
 }
