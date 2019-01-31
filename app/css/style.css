@@ -76,7 +76,9 @@ hr {
     margin-right: 25px;
 }
 .links:hover a:hover {
-    color: rgb(172, 229, 255);
+    color: rgb(255, 142, 157);
+    text-decoration: none;
+
 }
 
 .sites {
