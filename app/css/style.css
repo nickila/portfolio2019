@@ -7,16 +7,34 @@ body {
 #name {
     font-family: 'Nunito', serif;
     color: white;
-    font-size: 9rem;
+    font-size: 10vw;
     margin-bottom: -20px;
     margin-top: 20px;
 }
 
-#title {
+hr {
+    border: 2px rgb(0, 46, 70) solid;
+    border-radius: 3px;
+}
+
+.siteInfo {
+    margin-top: 15px;
+}
+
+.title {
     font-family: 'Nunito', serif;
     color: rgb(92, 203, 255);
     margin-left: 20px;
+}
 
+.category {
+    font-family: 'Nunito', serif;
+    color: rgb(92, 203, 255);
+    font-size: 3rem;
+}
+
+.progress-bar {
+    background-color: rgb(255, 40, 69);
 }
 
 .bio {
@@ -26,20 +44,13 @@ body {
     color: rgb(0, 46, 70);
 }
 
-hr {
-    border: 3px rgb(92, 203, 255) solid;
-    padding: 0;
-    margin: 0;
-    border-radius: 5px;
-}
-
 .section {
-    margin-top: 35px;
+    
     background-color: white;
     border-radius: 5px;
     padding: 15px;
 }
-img {
+#profilePic {
     margin-top: 20px;
     border-radius: 5px;
     width: 500px;
@@ -48,35 +59,27 @@ img {
 .fab {
     margin: 15px;
     font-size: 50px;
-    color: rgb(0, 46, 70);
+    color: rgb(92, 203, 255);
 }
 
-.links {
+.fab:hover {
+    color: rgb(0, 156, 228);
+}
+
+.links a {
     color: white;
-    font-size: 6rem;
-    margin: 30px;
-    font-family: "Lato", sans-serif;
-    margin-left: 0;
-   
+    font-size: 2rem;
+    font-family: 'Nunito', serif;
+    margin-bottom: 0;
+    margin-top: 25px;
+    text-align: right;
+    margin-right: 25px;
+}
+.links:hover a:hover {
+    color: rgb(172, 229, 255);
 }
 
-#about:hover {
-    cursor: pointer;
-    text-shadow: 0 0 15px white;
-
-    
-}
-#portfolio:hover {
-    cursor: pointer;
-    text-shadow: 0 0 15px white;
-    
-}
-#contact:hover {
-    cursor: pointer;
-    text-shadow: 0 0 15px white;
-    
-}
-
-.hide {
-    display: none;
+.sites {
+    width: 100%;
+    border-radius: 3px;
 }
