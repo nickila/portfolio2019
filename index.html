@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Nunito|Lato|Sacramento" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <link rel="stylesheet" href="app/css/style.css">
     <title>Brian Nickila</title>
@@ -19,7 +19,8 @@
         <div class="row">
             <div class="col-md-12">
                 <h1 class="display-1" id="name">BRIAN NICKILA</h1>
-                <p class="links"><a href="#about">about</a> &nbsp; <a href="#skills">skills</a> &nbsp; <a href="#portfolio">portfolio</a>
+                <p class="links"><a href="#about">about</a> &nbsp; <a href="#skills">skills</a> &nbsp; <a
+                        href="#portfolio">portfolio</a>
                     &nbsp; <a href="mailto:brian.nickila@gmail.com?Subject=Hello%20there!">contact</a></p>
             </div>
         </div>
@@ -112,35 +113,76 @@
         <div class="container section" id="portfolio">
             <div class="row center">
                 <h2 class="display-4 title">Portfolio</h2>
-                <div class="col-md-12">
 
-                    <a target="blank" href="https://nickila.github.io/clicky/"><img class="sites" src="app/images/clicky.png" /></a>
-                    <p class="siteInfo">This game challenges a player to click each image only once. The challenge is that every time you click an image, they shuffle randomly. A point is scored for every image clicked, but if you click one twice, it resets your score to 0. A high score is saved. The images used were from Ultraman, a popular Japanese sci-fi television series from the 1960s.
+                <div class="col-md-12">
+                    <a target="blank" href="https://peaceful-gorge-99214.herokuapp.com/"><img class="sites"
+                            src="app/images/book-search.png" /></a>
+                    <p class="siteInfo">This app will allow a user to search for a book by keyword. When a user searches
+                        a word or words, Google API sends back ten results. The page will display the title, author,
+                        synopsis, an image of the cover and a link to the book on google books. The user is able to save
+                        the books to an online database using mLab through Heroku. Once the user has books saved to the
+                        database, they can then click on Saved Books and see all the books they've saved. They can then
+                        delete the books from their saved lists or click the link to see more about the book on the
+                        google books site.
+
+                        Technologies used: React, Express, MongoDB, Mongoose, Node.js, HTML, CSS, Bootstrap, JavaScript,
+                        Heroku, mLab and the Google Books API.
+
+                        This app was created by Brian Nickila for the University of Minnesota Full-Stack Coding BootCamp
+                        following detailed instructions.
                         <br />
-                        This game was developed by Brian Nickila, following very specific instructions by the University of Minnesota BootCamp Full-Stack Web Development course.
+                        This game was developed by Brian Nickila, following very specific instructions by the University
+                        of Minnesota BootCamp Full-Stack Web Development course.
                         <br />
                         Programs used: React, JavaScript, HTML, Bootstrap and CSS.
                         <br />
+                        <hr>
+                        <br />
+                </div>
+                <div class="col-md-12">
+                    <a target="blank" href="https://nickila.github.io/clicky/"><img class="sites"
+                            src="app/images/clicky.png" /></a>
+                    <p class="siteInfo">This game challenges a player to click each image only once. The challenge is
+                        that every time you click an image, they shuffle randomly. A point is scored for every image
+                        clicked, but if you click one twice, it resets your score to 0. A high score is saved. The
+                        images used were from Ultraman, a popular Japanese sci-fi television series from the 1960s.
+                        <br />
+                        This game was developed by Brian Nickila, following very specific instructions by the University
+                        of Minnesota BootCamp Full-Stack Web Development course.
+                        <br />
+                        Programs used: React, JavaScript, HTML, Bootstrap and CSS.
+                        <br />
+                        <hr>
+                        <br />
+                </div>
+                <div class="col-md-12">
+
+                    <a target="blank" href="https://pure-anchorage-12886.herokuapp.com/"><img class="sites"
+                            src="app/images/nytimes_scraper.png" /></a>
+                    <p class="siteInfo">This site was created using Express, Node.js, Mongodb, Mongoose, Handlebars,
+                        JavaScript, jQuery, Bootstrap and Cheerio by Brian Nickila, following specific instructions by
+                        University of Minnesota BootCamp course for Full-Stack Development.
+
+                        The site allows a user to scrape headlines from New York Times website by clicking the 'scrape'
+                        button. The site then renders several articles from the current nytimes.com. It shows the
+                        headline, a summary and a link to the full article. It then allows the user to save articles, by
+                        switching a saved value from false (default) to true. When the user goes to the saved page, they
+                        can see all the articles they've saved. They can then delete them from their saved page if they
+                        choose to do so. They can also submit a note to be saved alongside that article.</p>
+                    <br />
                     <hr>
                     <br />
                 </div>
                 <div class="col-md-12">
 
-                    <a target="blank" href="https://pure-anchorage-12886.herokuapp.com/"><img class="sites" src="app/images/nytimes_scraper.png" /></a>
-                    <p class="siteInfo">This site was created using Express, Node.js, Mongodb, Mongoose, Handlebars, JavaScript, jQuery, Bootstrap and Cheerio by Brian Nickila, following specific instructions by University of Minnesota BootCamp course for Full-Stack Development.
-
-                        The site allows a user to scrape headlines from New York Times website by clicking the 'scrape' button. The site then renders several articles from the current nytimes.com. It shows the headline, a summary and a link to the full article. It then allows the user to save articles, by switching a saved value from false (default) to true. When the user goes to the saved page, they can see all the articles they've saved. They can then delete them from their saved page if they choose to do so. They can also submit a note to be saved alongside that article.</p>
-                    <br />
-                    <hr>
-                    <br />
-                </div>
-                <div class="col-md-12">
-
-                    <a target="blank" href="https://aqueous-reef-17353.herokuapp.com/"><img class="sites" src="app/images/dogo2.png" /></a>
+                    <a target="blank" href="https://aqueous-reef-17353.herokuapp.com/"><img class="sites"
+                            src="app/images/dogo2.png" /></a>
                     <p class="siteInfo">Where My Dough Go? allows a user to signup/login and add expenses by category.
                         The total amounts get stored and totaled into the category total space to allow the user where
-                        all their respective dough go. I worked in collaboration with three talented students: <a href="https://github.com/shilpipawar">Shilpa
-                            Pawar</a>, <a href="https://github.com/MoChips2">Simone Medhanie</a> and <a href="https://github.com/prajbhandary">Pranab
+                        all their respective dough go. I worked in collaboration with three talented students: <a
+                            href="https://github.com/shilpipawar">Shilpa
+                            Pawar</a>, <a href="https://github.com/MoChips2">Simone Medhanie</a> and <a
+                            href="https://github.com/prajbhandary">Pranab
                             Rajbhandary.</a>
                         <br />
                         <a href="https://github.com/shilpipawar/CRUDMonster">GitHub Repo.</a></p>
@@ -149,7 +191,8 @@
                     <br />
                 </div>
                 <div class="col-md-12">
-                    <a target="blank" href="https://calm-waters-23102.herokuapp.com/"><img class="sites" src="app/images/burger.png" /></a>
+                    <a target="blank" href="https://calm-waters-23102.herokuapp.com/"><img class="sites"
+                            src="app/images/burger.png" /></a>
                     <p class="siteInfo">Eat-da-Burger uses MySQL for the database, Heroku for deployment,
                         jQuery, Bootstrap, HTML, CSS, Handlebars and Node.js. This app was created by Brian
                         Nickila with specific instruction by the Coding Boot Camp of the University of
@@ -161,7 +204,8 @@
                     <br />
                 </div>
                 <div class="col-md-12">
-                    <a target="blank" href="https://hidden-caverns-37239.herokuapp.com/"><img class="sites" src="app/images/friend.png" /></a>
+                    <a target="blank" href="https://hidden-caverns-37239.herokuapp.com/"><img class="sites"
+                            src="app/images/friend.png" /></a>
                     <p class="siteInfo">FriendFinder is a site that allows a user to enter in their name, image
                         and choose from 1-5 to answer a series of personal beliefs. It will then compare that
                         information against other users' scores and match them with the closest scores. It
@@ -175,7 +219,8 @@
                     <br />
                 </div>
                 <div class="col-md-12">
-                    <a target="blank" href="https://youtu.be/wDEec8nOevU"><img class="sites" src="app/images/bamazon.png" /></a>
+                    <a target="blank" href="https://youtu.be/wDEec8nOevU"><img class="sites"
+                            src="app/images/bamazon.png" /></a>
                     <p class="siteInfo">Bamazon allows users to purchase products, adjusting database on hands
                         and tracking sales. It also allows a user to act as the manager adding new items,
                         tracking sales and checking low inventory. It also allows a user to act as a supervisor
@@ -188,7 +233,8 @@
                     <br />
                 </div>
                 <div class="col-md-12">
-                    <a target="blank" href="https://youtu.be/5xrNWvOqVV0"><img class="sites" src="app/images/liri_bot.png" /></a>
+                    <a target="blank" href="https://youtu.be/5xrNWvOqVV0"><img class="sites"
+                            src="app/images/liri_bot.png" /></a>
                     <p class="siteInfo">LIRI-Bot was created to allow a user to search for a movie, song or
                         concert info from the terminal using Node.js. Following a detailed set of instructions,
                         I used JavaScript, Node.js, node-spotify-api, axios, moment, fs, dotenv, bandsintown
@@ -200,7 +246,8 @@
                     <br />
                 </div>
                 <div class="col-md-12">
-                    <a target="blank" href="https://nickila.github.io/Project_1/"><img class="sites" src="app/images/our_house.png" /></a>
+                    <a target="blank" href="https://nickila.github.io/Project_1/"><img class="sites"
+                            src="app/images/our_house.png" /></a>
                     <p class="siteInfo">My group and I created this website to help people find their local
                         representatives and contact information. My contributions consisted of HTML,
                         CSS/Bootstrap, Animate.css, JavaScript, jQuery and some of the Google Civics API.
@@ -213,7 +260,8 @@
                     <br />
                 </div>
                 <div class="col-md-12">
-                    <a target="blank" href="https://nickila.github.io/unit-4-game/"><img class="sites" src="app/images/doodle_poots.png" /></a>
+                    <a target="blank" href="https://nickila.github.io/unit-4-game/"><img class="sites"
+                            src="app/images/doodle_poots.png" /></a>
                     <p class="siteInfo">This role-playing game was created during an intensive bootcamp
                         coding
                         course. I used HTML, CSS/Bootstrap, JavaScript and jQuery. The user chooses a
@@ -226,7 +274,8 @@
                     <br />
                 </div>
                 <div class="col-md-12">
-                    <a target="blank" href="https://nickila.github.io/Word-Guess-Game/"><img class="sites" src="app/images/hangman.png" /></a>
+                    <a target="blank" href="https://nickila.github.io/Word-Guess-Game/"><img class="sites"
+                            src="app/images/hangman.png" /></a>
                     <p class="siteInfo">This classic hangman game was created with arcade-style games in
                         mind.
                         Bright colors agains a black background and large simple fonts make for a simple,
@@ -238,7 +287,8 @@
                     <br />
                 </div>
                 <div class="col-md-12">
-                    <a target="blank" href="https://nickila.github.io/GifTastic/"><img class="sites" src="app/images/giftastic.png" /></a>
+                    <a target="blank" href="https://nickila.github.io/GifTastic/"><img class="sites"
+                            src="app/images/giftastic.png" /></a>
                     <p class="siteInfo">Who doesn't like GIFs? This site lets users see ten GIFs from a
                         group
                         of themes or to create their own theme button and watch those GIFs instead. For
@@ -251,7 +301,8 @@
                     <br />
                 </div>
                 <div class="col-md-12">
-                    <a target="blank" href="https://nickila.github.io/train-scheduler/"><img class="sites" src="app/images/train_sched.png" /></a>
+                    <a target="blank" href="https://nickila.github.io/train-scheduler/"><img class="sites"
+                            src="app/images/train_sched.png" /></a>
                     <p class="siteInfo">This train scheduler allows a user to create a unique login and
                         password in order to add trains, destinations, start times and frequency. Using
                         Firebase, the next arrival time is calculated and displayed to the viewer. Train
@@ -264,7 +315,8 @@
                     <br />
                 </div>
                 <div class="col-md-12">
-                    <a target="blank" href="https://nickila.github.io/TriviaGame/"><img class="sites" src="app/images/trivia_game.png" /></a>
+                    <a target="blank" href="https://nickila.github.io/TriviaGame/"><img class="sites"
+                            src="app/images/trivia_game.png" /></a>
                     <p class="siteInfo">Using a theme of the popular cartoon Adventure Time, I created this
                         classic trivia game. Users are asked a series of questions with multiple-choice
                         answers. Correct, incorrect and timed-out answers are all logged and displayed at
