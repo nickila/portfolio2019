@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(92, 203, 255);
+    background-color: rgb(166, 227, 255);
+    font-family: "Work Sans", serif;
     
 
 }
@@ -18,7 +19,11 @@ hr {
 }
 
 .siteInfo {
-    margin-top: 15px;
+    font-size: 1.5rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    text-align: justify;
 }
 
 .title {
@@ -42,6 +47,7 @@ hr {
     margin-right: 25px;
     font-size: 22px;
     color: rgb(0, 46, 70);
+    text-align: justify;
 }
 
 .section {
@@ -84,4 +90,8 @@ hr {
 .sites {
     width: 100%;
     border-radius: 3px;
+}
+
+.roles {
+    margin-bottom: 0;
 }
